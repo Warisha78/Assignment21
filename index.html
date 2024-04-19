@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asignment21</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- PDF chap 43-48 -->
+    <!-- question1 -->
+<a class="anchor" href="#"onclick="alert('Welcome to the Page!')"><h4 class="heading">Mobile Phone Lookup</h4></a>
+<div class="mobile">
+<div>
+    <img onclick="alert('thanks for purchasing a phone from us')" width="200px" src="./phone1.avif" alt=""><p>mobileX</p>
+</div>
+<div>
+    <img src="./images (1).jpg" width="200px" onclick="alert('thanks for purchasing a phone from us')" alt=""><p>mobileY</p>
+
+</div>
+<div>
+    <img src="./images.jpg" width="200px" onclick="alert('thanks for purchasing a phone from us')" alt=""><p>mobile Z</p>   
+
+</div>
+</div>
+
+<!-- Question2 -->
+
+<table>
+<tr>
+    <td><h4>Index</h4></td>
+    <td><h4>Name</h4></td>
+    <td><h4>Class</h4></td>
+</tr>
+    <tr onclick="deleteRow(this)" class="delete-but">
+        <td>0</td>
+        <td>John 10</td>
+        <td><button>Delete</button></td>
+    </tr>
+
+    <tr onclick="deleteRow(this)" class="delete-but">
+        <td>1</td>
+        <td>Doe 9</td>
+        <td><button>Delete</button></td>
+    </tr>
+    
+    <tr onclick="deleteRow(this)" class="delete-but">
+        <td>2</td>
+        <td>Mark 8</td>
+        <td><button >Delete</button></td>
+    </tr>
+    
+    <tr  onclick="deleteRow(this)" class="delete-but">
+        <td>4</td>
+        <td>James 10</td>
+        <td><button>Delete</button></td>
+    </tr>
+</table>
+<!-- Question3 -->
+
+<div class="q-3">
+    <img src="./tree-736885_640.jpg" onmouseover="src='./tree-736885_640.jpg'" onmouseout="src='./beach-sea-18378306.webp'" width="300px" alt="">
+
+</div>
+<!-- Q4 -->
+<div id="counter">0</div>
+<button id="increaseButton">Decrease</button>
+<button id="decreaseButton">Increase</button>
+
+<!-- pdf chap 49-52 -->
+<div class="form">
+<h1>SIGN UP</h1>
+<input type="text" placeholder="First Name" name="First Name" required id="textOne"><br>
+<input type="text" placeholder="Last Name" name="Last Name" required id="textTwo"><br>
+<input type="text" placeholder="Email" name="Email" required id="textThree"><br>
+<input type="password" placeholder="Password" name="password" required id="textFour"><br>
+<button onclick="testVariable()">Log in</button>
+<span id="spanResult">
+
+</span>
+</div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
